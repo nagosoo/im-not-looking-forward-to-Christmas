@@ -12,5 +12,4 @@ function manageMusic() {
     isMusicPlaying = !isMusicPlaying;
 }
 
-music.play();
 musicButton.addEventListener("click", manageMusic); 
