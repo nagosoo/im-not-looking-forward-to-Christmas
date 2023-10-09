@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>크리스마스 하나도 기대 안된다</title>
+    <link rel="favicon" href="./favicon.ico">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="16x16">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Nabla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+        @font-face {
+            font-family: 'KOTRAHOPE';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'SBAggroB';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Pretendard-SemiBold';
+            src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+
+<body>
+    <img id="button-music" src="img/rice2.png" class="img-music" alt="주쿵">
+    <h1 class="title-header" id="animated-text"></h1>
+    <p class="d-day" id="d-day"></p>
+    <h1 id="greeting" class="hidden greeting"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="오늘의 할일" required />
+    </form>
+    <ul id="todo-list" class="todo"></ul>
+    <div class="quote-container">
+        <div class="quote-title">🎅의 조언</div>
+        <span class="quote-content"></span>
+        <img src="img/onion.png" alt="양쿵" class="quote-image">
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+</div>
+    <script src="js/greetings.js"></script>
+    <script src="js/d-day.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/bounce-title.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/snowflake.js"></script>
+</body>
+</body>
+
+</html>
