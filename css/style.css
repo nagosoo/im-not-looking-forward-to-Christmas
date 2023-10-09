@@ -113,11 +113,6 @@ input:focus::placeholder {
     font-size: 30px;
     padding: 10px;
     margin-top: 0px;
-    /* position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    margin-left: 20px; */
 }
 
 .merry-christmas {

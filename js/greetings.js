@@ -2,6 +2,8 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 const name = document.querySelector("#name");
+const todoList2 = document.getElementById("todo-list");
+const todoForm2 = document.getElementById("todo-form");
 
 
 const HIDDEN_CLASS_NAME = "hidden";
@@ -19,6 +21,8 @@ function onLoginSubmit(event) {
 function paintGreetings(userName) {
     greeting.innerHTML = `${userName}, <span class="merry-christmas">메리크리스마스</span>`;
     greeting.classList.remove(HIDDEN_CLASS_NAME);
+    todoList2.classList.remove(HIDDEN_CLASS_NAME);
+    todoForm2.classList.remove(HIDDEN_CLASS_NAME);
 }
 
 if (savedUserName === null) {

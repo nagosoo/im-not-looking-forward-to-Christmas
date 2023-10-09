@@ -42,11 +42,14 @@
     <img id="button-music" src="img/rice2.png" class="img-music" alt="주쿵">
     <h1 class="title-header" id="animated-text"></h1>
     <p class="d-day" id="d-day"></p>
+    <form id="login-form" class="hidden">
+        <input type="text" placeholder="이름을 입력해 주세요." required />
+    </form>
     <h1 id="greeting" class="hidden greeting"></h1>
-    <form id="todo-form">
+    <form id="todo-form" class="hidden">
         <input type="text" placeholder="오늘의 할일" required />
     </form>
-    <ul id="todo-list" class="todo"></ul>
+    <ul id="todo-list" class="hidden todo"></ul>
     <div class="quote-container">
         <div class="quote-title">🎅의 조언</div>
         <span class="quote-content"></span>
@@ -66,6 +69,4 @@
     <script src="js/music.js"></script>
     <script src="js/snowflake.js"></script>
 </body>
-</body>
-
 </html>
